@@ -27,8 +27,8 @@ public class TaskService {
 
         Optional.ofNullable(task.getTitle())
                 .ifPresent(title -> findTask.setTitle(title));
-        Optional.ofNullable(task.getOrder())
-                .ifPresent(order ->findTask.setOrder(order));
+        Optional.ofNullable(task.getOrders())
+                .ifPresent(orders ->findTask.setOrders(orders));
         Optional.ofNullable(task.isCompleted())
                 .ifPresent(completed ->findTask.setCompleted(completed));
 

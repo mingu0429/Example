@@ -2,7 +2,7 @@ package com.programmingu.todoapp.task.dto;
 
 public class TaskDto {
     private String title;
-    private int order;
+    private int orders;
     private boolean completed;
 
     public String getTitle() {
@@ -13,12 +13,12 @@ public class TaskDto {
         this.title = title;
     }
 
-    public int getOrder() {
-        return order;
+    public int getOrders() {
+        return orders;
     }
 
-    public void setOrder(int order) {
-        this.order = order;
+    public void setOrders(int orders) {
+        this.orders = orders;
     }
 
     public boolean isCompleted() {

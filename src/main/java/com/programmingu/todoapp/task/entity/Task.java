@@ -10,6 +10,6 @@ public class Task {
     @Id
     private long taskId;
     private String title;
-    private int order;
+    private int orders;
     private boolean completed;
 }

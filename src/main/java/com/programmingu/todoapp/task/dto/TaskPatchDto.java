@@ -6,7 +6,7 @@ import lombok.Getter;
 public class TaskPatchDto {
     private long taskId;
     private String title;
-    private int order;
+    private int orders;
     private boolean completed;
 
     public void setTaskId(long taskId) {
